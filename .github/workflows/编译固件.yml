@@ -203,7 +203,7 @@ jobs:
     - name: 清理Actions空间
       uses: Mattraks/delete-workflow-runs@main
       with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.N1_TOKEN }}
           repository: ${{ github.repository }}
           keep_minimum_runs: 0
           retain_days: 7
